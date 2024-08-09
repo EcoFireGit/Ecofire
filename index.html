@@ -21,32 +21,28 @@
 	</div>
 
 <!-- Contact Form Set-up-->
-	    
-	<form name="contact" method="POST" data-netlify="true">
-	  <p>
-	    <label>Your Name: <input type="text" name="name" /></label>
-	  </p>
-	  <p>
-	    <label>Your Email: <input type="email" name="email" /></label>
-	  </p>
-	   <p>
-	    <label>Subject: <input type="subject" name="subject" /></label>
-	  </p>
-	  <p>
-	    <label>Message: <textarea name="message"></textarea></label>
-	  </p>
-	  <p>
-	    <button type="submit">Send</button>
-	  </p>
-	</form>
-
-	    <form
-		  name="contact"
-		  action="/success"
-		  method="POST"
-		  data-netlify="true"
-		></form>
-	    
+		<div class="container">
+	 <form name="contact" method="POST" netlify>
+	
+	    <label for="fname">First Name</label>
+	    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+	
+	    <label for="lname">Last Name</label>
+	    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		 
+	    <label for="email">Email</label>
+	    <input type="text" id="email" name="email" placeholder="Email">
+		 
+	    <label for="subject">Subject</label>
+	    <input type="text" id="subject" name="subject" placeholder="Subject">
+		 
+	    <label for="Message">Message</label>
+	    <textarea id="Message" name="Message" placeholder="Your Message" style="height:200px"></textarea>
+	
+	    <input type="submit" value="Submit">
+	
+	  </form>
+</div>
     </main>
 	<script src="script.js"></script>
   </body>
