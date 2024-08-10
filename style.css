@@ -91,6 +91,7 @@ input[type=submit]:hover {
   position: relative;
   text-align: center;
   color: white;
+  border-radius: 12px;
 }
 
 
