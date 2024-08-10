@@ -79,13 +79,13 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Add a background color and some padding around the form */
+/* Add a background color and some padding around the form 
 .container {
   border-radius: 5px;
   background-color: #ffffff;
   padding: 20px;
 }
-
+*/
 /* Container holding the image and the text */
 .container {
   position: relative;
