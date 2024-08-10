@@ -90,20 +90,20 @@ input[type=submit]:hover {
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
   border-radius: 12px;
 }
 
 img {
   border-radius: 3%;
-  filter: brightness(50%);
+  filter: brightness(75%);
 }
 
 /* Centered text */
 .centered {
   position: absolute;
   font-size: 40px;
-  color: black;
+  color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
