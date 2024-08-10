@@ -94,6 +94,9 @@ input[type=submit]:hover {
   border-radius: 12px;
 }
 
+img {
+  border-radius: 10%;
+}
 
 /* Centered text */
 .centered {
