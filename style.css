@@ -96,6 +96,7 @@ input[type=submit]:hover {
 
 img {
   border-radius: 3%;
+  filter: brightness(50%);
 }
 
 /* Centered text */
